@@ -1,6 +1,6 @@
 .header {
   list-style-type: none;
-  margin: 10px;
+  margin-top: 5px;
   overflow: hidden;
   margin-right: 16px;
   font-family: arial,sans-serif;
@@ -10,11 +10,24 @@
 .headerli a {
   display: block;
   float: right;
-  color: black;
+  color: rgba(0,0,0,0.87);
   text-align: center;
   padding: 5px 5px;
   text-decoration: none;
   width: 40px;
+}
+.newThing a {
+  display: block;
+  float: left; 
+  text-decoration: none; 
+  color: black;
+  padding: 7px 20px 5px 5px;
+  width: 40px;
+  margin-left: -20px;
+  opacity: 0.75;
+}
+.newThing a:hover{
+  text-decoration: underline;
 }
 
 .headerli a:hover {
